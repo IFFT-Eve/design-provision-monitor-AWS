@@ -1,0 +1,10 @@
+﻿Estimation,,Service,,,,,,Region,,,Detail,,,,,Monthly,,,Configuration
+1,,S3 Standard,,,,,,"US East (N. Virginia)	",,,S3 Cost Estimate,,,,,235.52 USD,,,S3 Standard storage (10 TB per month)
+2,,Data Transfer,,,,,,"US East (N. Virginia)	",,,S3 Cost Estimate,,,,,"1,592.32 USD",,,"DT Inbound: Internet (10 TB per month), DT Outbound: Internet (15 TB per month)"
+3,,Amazon Route 53,,,,,,"US East (N. Virginia)	",,,Route 53,,,,,108.95 USD,,,"Hosted Zones (1), Basic Checks Within AWS (1)"
+4,,Amazon EC2,,,,,,"US East (N. Virginia)	",,,EC2 - Application & Web Server,,,,,"3,496.63 USD",,,"Operating system (Linux), Storage amount (250 GB), DT Inbound: Internet (10 TB per month), DT Outbound: Internet (10 TB per month), DT Intra-Region: (0 TB per month), Workload (Daily, (Workload days: Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Baseline: 4, Peak: 20, Duration of peak: 16 Hr 30 Min)), Advance EC2 instance (t3.medium), Pricing strategy (On-Demand), Snapshot Frequency (2xDaily), Amount changed per snapshot (50 GB)"
+5,,Amazon Virtual Private Cloud (VPC),,,,,,"US East (N. Virginia)	",,,NAT,,,,,110.70 USD,,,"Number of NAT Gateways (2), Data Processed per NAT Gateway (500 GB per month)"
+6,,Amazon Virtual Private Cloud (VPC),,,,,,"US East (N. Virginia)	",,,,,,,,49.20 USD,,,Number of interface VPC endpoints per region (2)
+7,,Application Load Balancer,,,,,,"US East (N. Virginia)	",,,Elastic Load Balancer,,,,,474.50 USD,,,"Number of Application Load Balancers (4), Processed bytes (5 GB per hour)"
+8,,Amazon RDS ,,,,,,"US East (N. Virginia)	",,,RDS Database,,,,,"2,591.38 USD",,,"Storage volume (General Purpose SSD (gp2)), Storage amount (2 TB per month), Instance Type (db.m5.4xlarge)"
+9,,Amazon Elastic IP,,,,,,"US East (N. Virginia)	",,,Elastic IP,,,,,14.60 USD,,,"Number of EC2 instances (4), Number of EIPs per instance (2)"
